@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(.assets/fonts/montserrat/montserrat-light,ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(.assets/fonts/montserrat/montserrat-Regular,ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(.assets/fonts/montserrat/montserrat-Medium,ttf);
+    font-weight: 500;
+}
+
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(.assets/fonts/montserrat/montserrat-Bold,ttf);
+    font-weight: bold;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    color: #424242;
+
+}
+
+body{
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.app__header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+
+.logo.svg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo2{
+    margin-top: 0;
+    cursor: pointer;
+
+}
+.app__links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.app__links li{
+    margin-right: 1.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid red;
+}
+
+
+
+.app__showcase{
+    display: flex;
+    margin: 5rem 0;
+
+}
+
+
+.app__showcaseinfo{
+    flex: 6;
+
+}
+
+.app__showcaseinfo h1 h3{
+font-size: 52px;
+margin: 0;
+}
+
+.app__showcaseinfo h1{
+    color: #D05270;
+    font-weight: bold;
+
+}
+
+.app__showcaseinfo h3{
+    color: 424242;
+    font-weight: 500; 
+   
+}
+
+.app__showcaseinfo p{
+    color: 424242;
+    font-weight: 400; 
+    font-size: 18px;
+}
+
+
+
+.app__showcaseimage{
+    flex: 4;
+}
+
+
+.socials{
+    color: white;
+    font-size: 12px;
+    width: 30%;
+    display: flex;
+    height: 60px;
+    text-decoration: none;
+    margin-top: 3rem;
+}
+.social1{
+    margin-right: 5px;
+}
+.social3{
+    margin-left: 5px;
+}
+
+.bloklist{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+       
+}
+
+.bloklist li{
+    margin-right: 1.5rem;
+    font-size: 18px;
+    font-weight: 500; 
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
+.bloklist :hover{
+ color: aqua;  
+ transition: .3s; 
+}
+
+.app__postlist{
+    display: flex;
+    flex-direction: row;
+   width: max-content;
+    
+     
+}
+
+.app__postlist .app__postcards{
+ display: flex;
+ flex: 0 0 50%;   
+ flex-direction: column;
+ padding: 0 2rem;
+ margin-top: 50px
+w
+}
+.card1{
+    height: 400px;
+   
+}
+
+.card2{
+    height: 400px;
+    
+}
+
+.card3{
+    height: 400px;
+    
+}
+
+.card4{
+    height: 400px;
+   
+}
+.footer{
+   
+    position: relative;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.artwork:hover{
+background-color: aqua;
+height: 2rem;
+transition: .5s;
+
+}
+.socials :hover{
+    transform: scale(1,1.5);
+    transition: .3s;
+}
